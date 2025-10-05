@@ -1,0 +1,73 @@
+{
+  "game_settings": {
+    "window_width": 800,
+    "window_height": 600,
+    "fps": 60,
+    "title": "Flappy Bird Game"
+  },
+  "player_settings": {
+    "size": 60,
+    "gravity": 0.3,
+    "jump_strength": -10,
+    "max_fall_speed": 8,
+    "start_x": 150,
+    "start_y": 300
+  },
+  "wall_settings": {
+    "width": 80,
+    "gap_size": 180,
+    "speed": 2,
+    "spawn_distance": 300,
+    "min_height": 80,
+    "max_height": 400
+  },
+  "enemy_settings": {
+    "size": 35,
+    "speed": 2,
+    "spawn_distance": 600,
+    "spawn_height_range": 100,
+    "max_enemies": 3
+  },
+  "levels": [
+    {
+      "level": 1,
+      "name": "Easy",
+      "wall_speed": 2,
+      "enemy_speed": 1.5,
+      "enemy_spawn_rate": 0.3,
+      "wall_gap": 220,
+      "description": "Gentle introduction to the game"
+    },
+    {
+      "level": 2,
+      "name": "Medium",
+      "wall_speed": 3,
+      "enemy_speed": 2,
+      "enemy_spawn_rate": 0.5,
+      "wall_gap": 200,
+      "description": "Moderate challenge with more obstacles"
+    },
+    {
+      "level": 3,
+      "name": "Hard",
+      "wall_speed": 4,
+      "enemy_speed": 2.5,
+      "enemy_spawn_rate": 0.7,
+      "wall_gap": 180,
+      "description": "Fast-paced action with tight spaces"
+    }
+  ],
+  "scoring": {
+    "points_per_wall": 10,
+    "points_per_enemy_avoided": 5,
+    "high_score_file": "high_score.txt"
+  },
+  "colors": {
+    "background": [135, 206, 235],
+    "text": [255, 255, 255],
+    "button": [50, 150, 50],
+    "button_hover": [70, 170, 70],
+    "wall": [34, 139, 34],
+    "enemy": [255, 0, 0]
+  }
+}

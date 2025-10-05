@@ -1,0 +1,6 @@
+@echo off
+echo Activating virtual environment...
+call venv\Scripts\activate.bat
+echo Starting Flappy Bird Game...
+python flappy_bird.py
+pause
